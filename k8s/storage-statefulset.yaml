@@ -42,7 +42,7 @@ spec:
   clusterIP: None
   selector:
     app: storage
-ports:
-  - protocol: TCP
-    port: 3000
-    targetPort: 3000
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
