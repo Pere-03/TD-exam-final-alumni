@@ -41,6 +41,6 @@ metadata:
 spec:
   clusterIP: None
   selector:
-    app: storage, web
+    app: storage
   ports:
     - port: 3000
