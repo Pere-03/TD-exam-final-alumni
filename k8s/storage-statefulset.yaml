@@ -39,9 +39,10 @@ kind: Service
 metadata:
   name: web-storage
 spec:
-  type: ClusterIP
   clusterIP: None
   selector:
     app: storage
-  ports:
-    - port: 3000
+ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
