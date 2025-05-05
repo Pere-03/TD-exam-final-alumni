@@ -41,3 +41,4 @@ jobs:
       run: |
         gcloud container clusters get-credentials $GKE_CLUSTER --zone $GKE_ZONE
         kubectl apply -f ./k8s/web-deployment.yaml
+        kubectl apply -f ./k8s/storage.statefulset.yaml
