@@ -37,9 +37,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: internal-service
+  name: web-storage
 spec:
-  clusterIP: ClusterIP
+  # clusterIP: ClusterIP
   selector:
     app: storage
   ports:
