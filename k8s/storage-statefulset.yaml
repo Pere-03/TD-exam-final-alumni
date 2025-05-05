@@ -39,7 +39,7 @@ kind: Service
 metadata:
   name: web-storage
 spec:
-  type: clusterIP
+  type: ClusterIP
   # clusterIP: 34.118.229.70
   selector:
     app: storage
