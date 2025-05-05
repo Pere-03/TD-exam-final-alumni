@@ -39,8 +39,7 @@ kind: Service
 metadata:
   name: web-storage
 spec:
-  type: ClusterIP
-  # clusterIP: 34.118.229.70
+  clusterIP: 10.128.0.19
   selector:
     app: storage
   ports:

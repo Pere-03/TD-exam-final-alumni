@@ -20,7 +20,7 @@ spec:
             - containerPort: 3000
           env:
             - name: STORAGE_SVC
-              value: "my-storage"
+              value: "web-storage"
           livenessProbe:
             httpGet:
               path: /probe
