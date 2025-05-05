@@ -39,6 +39,8 @@ kind: Service
 metadata:
   name: web-storage
 spec:
+  type: ClusterIP
+  # Uncomment the below line to create a Headless Service
   clusterIP: None
   selector:
     app: storage
